@@ -5,6 +5,10 @@
   with_items:
     - git
 
+- name: remove previous git download 
+  shell: rm -r {{ app_installation_dir }}
+  ignore_errors: True
+
 # tasks file for roles/bastly.git-publisher
 - name: clone repo master if not already cloned
   git: repo={{ repo_to_install }} dest={{ app_installation_dir }} accept_hostkey=True
