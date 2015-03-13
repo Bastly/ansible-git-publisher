@@ -1,5 +1,5 @@
 ---
-- name: Zeromq | Make sure the zeromq dependencies are installed
+- name: Make sure the git is installed
   sudo: yes
   apt: pkg={{ item }}
   with_items:
