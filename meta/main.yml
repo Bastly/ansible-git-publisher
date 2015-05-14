@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Alex Vidal goofyahead@gmail.com
+  author: Alex Vidal goofyahead@gmail.com - Gustavo Giudici gustavogiudici@gmail.com
   description: Git deploy
   company: bastly
   # Some suggested licenses:
@@ -10,7 +10,7 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: license (GPLv2, CC-BY, etc)
+  license: license (AGPLv2, CC-BY, etc)
   min_ansible_version: 1.2
   categories:
     - system
