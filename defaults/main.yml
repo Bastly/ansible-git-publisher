@@ -1,2 +1,5 @@
 ---
 # defaults file for roles/bastly.git-publisher
+repo_branch: "master"
+
+
